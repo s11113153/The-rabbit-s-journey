@@ -109,12 +109,16 @@ RabbitChallenge & RabbitChallenge::foxTest() {
   fprintf(stdout, "Where will you go?\n");
   std::getline(std::cin, go_where);
 
-  if (sky_height == "As high as you can see.")
-      correct_count ++;
+  if (strcmp(sky_height.c_str(), "As high as you can see.") == 0) {
+     correct_count ++;
+     cout << "correct_count++" << endl;
+  }
 
-  if (go_where == "home" || "school")
-      correct_count++;
-
+  if (strcmp(go_where.c_str(), "home") == 0 ||
+      strcmp(go_where.c_str(), "school") == 0) {
+    correct_count ++;
+    cout << "correct_count++" << endl;
+  }
 
   switch (correct_count) {
     case 2:

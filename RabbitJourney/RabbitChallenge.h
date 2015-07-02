@@ -24,10 +24,9 @@ private:
     POTATO = 1,
     CARROT = 2
   };
-
 public:
   static void greeting(const char * msg);
-  RabbitChallenge & input(Rabbit rabbit);
+  RabbitChallenge & input(Rabbit & rabbit, std::string inputMsg);
   RabbitChallenge & climbUpTheWell();
   RabbitChallenge & eat();
   RabbitChallenge & acrossTheCreek();

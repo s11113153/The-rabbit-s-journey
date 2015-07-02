@@ -17,8 +17,9 @@ void RabbitChallenge::greeting(const char *msg) {
 }
 
 
-RabbitChallenge & RabbitChallenge::input(Rabbit rabbit) {
-  cout << "initial input data" << endl;
+RabbitChallenge & RabbitChallenge::input(Rabbit &rabbit, std::string inputMsg) {
+  cout << inputMsg << endl;
+  std::getline(std::cin, rabbit.name);
   cin >> rabbit.depth;
   cin >> rabbit.K_meter;
   cin >> rabbit.M_meter;
@@ -54,8 +55,9 @@ RabbitChallenge & RabbitChallenge::climbUpTheWell() {
       mRabbit.energy -= hour_climbing * mRabbit.calories;
     }
   }
-  fprintf(stdout, "d = %f, k = %f, m = %f, e = %f, c = %f\n",
-          mRabbit.depth, mRabbit.K_meter, mRabbit.M_meter, mRabbit.energy, mRabbit.calories);
+  fprintf(stdout, "name = %s, d = %f, k = %f, m = %f, e = %f, c = %f\n",
+          mRabbit.name.c_str(), mRabbit.depth, mRabbit.K_meter, mRabbit.M_meter,
+          mRabbit.energy, mRabbit.calories);
   return *this;
 }
 

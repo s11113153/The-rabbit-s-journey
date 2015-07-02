@@ -10,11 +10,12 @@
 #define __RabbitJourney__Rabbit__
 
 #include <stdio.h>
-
+#include <string>
 #endif /* defined(__RabbitJourney__Rabbit__) */
 
 class Rabbit {
 public:
+  std::string name;
   float depth;
   float K_meter;
   float M_meter;

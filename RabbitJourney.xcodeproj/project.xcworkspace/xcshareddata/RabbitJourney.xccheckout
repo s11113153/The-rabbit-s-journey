@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FC9FE5F8-96AC-4431-9520-2CB101F36E00</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RabbitJourney</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E8C2698A5E21848129EDA714ECF9F4F48C64D540</key>
+		<string>https://github.com/s11113153/The-rabbit-s-journey.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RabbitJourney.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E8C2698A5E21848129EDA714ECF9F4F48C64D540</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/s11113153/The-rabbit-s-journey.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E8C2698A5E21848129EDA714ECF9F4F48C64D540</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E8C2698A5E21848129EDA714ECF9F4F48C64D540</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RabbitJourney</string>
+		</dict>
+	</array>
+</dict>
+</plist>
